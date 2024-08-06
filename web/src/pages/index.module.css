@@ -1,0 +1,85 @@
+.container {
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+  }
+  
+  .heading {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .taskCounts {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+  }
+  
+  .taskCount {
+    font-weight: bold;
+  }
+  
+  .columns {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .column {
+    flex: 1;
+    margin: 0 1rem;
+  }
+  
+  .columnHeading {
+    text-align: center;
+    margin-bottom: 0.5rem;
+    color: #555;
+  }
+  
+  .taskList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .taskItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .taskName {
+    flex: 1;
+    color: #333;
+  }
+  
+  .button {
+    margin-left: 0.5rem;
+    padding: 0.3rem 0.6rem;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #218838;
+  }
+  
+  .button:active {
+    background-color: #1e7e34;
+  }
+  
+  .button.complete {
+    background-color: #007bff;
+  }
+  
+  .button.complete:hover {
+    background-color: #0056b3;
+  }
+  
+  .button.complete:active {
+    background-color: #004085;
+  }
+  
